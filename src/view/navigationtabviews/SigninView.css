@@ -1,0 +1,49 @@
+
+
+.sigInBox{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+    border-bottom: 2px solid #404040 ;
+    
+}
+
+.login{
+   grid-column: 4/7;
+   grid-row: 4/4;
+   justify-self: center;
+   align-self: center;
+   text-align: center;
+   padding: 20px;
+   color: white;
+   width: 100%;
+   background-color:#404040;
+   
+ 
+
+}
+
+input{
+    grid-column: 5/7;
+    grid-row: 6/6;
+    justify-self: start;
+    align-self: center;
+
+
+}
+
+.User{
+    grid-column: 4/4;
+    grid-row: 6/6;
+    justify-self: end;
+    align-self: center;
+    padding-right: 20px;
+}
+
+.logbutton{
+    grid-column: 5/7;
+    width: 55%;
+    justify-self: start;
+    align-self: center;
+    grid-row: 8/9;
+}

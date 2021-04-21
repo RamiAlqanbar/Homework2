@@ -1,0 +1,67 @@
+
+.desktopNavigationWrapper{
+    width: 100%;
+   background-color:#404040;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    
+}
+
+.gallery,
+.logo,
+.signin,
+.news,
+.shop,
+.authUser
+{
+
+    padding: 3%;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+}
+
+.logo{
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/3;
+    cursor: pointer;
+}
+
+.signin{
+    grid-column: 18/20;
+    justify-self: center;
+    align-self: center;
+}
+
+.shop{
+    grid-column: 8/10;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+.gallery{
+    grid-column: 10/12;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+.news{
+    grid-column: 12/14;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.authUser{
+    grid-column: 18/20;
+    justify-self: center;
+    align-self: center;
+    color: white;
+}
